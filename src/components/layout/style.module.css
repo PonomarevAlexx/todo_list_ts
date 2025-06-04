@@ -1,0 +1,15 @@
+.layout {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(250, 250, 250);
+}
+
+@media (max-width: 980px) {
+    .layout {
+        width: 100%;
+    }
+}
